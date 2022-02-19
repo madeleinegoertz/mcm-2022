@@ -1,0 +1,69 @@
+Introduction
+	Restatement of the Problem
+	Some background on time trialing
+	Power Curves
+		Leo et al review article, issues with power curves	
+	Existing models of power output over time
+		Sreedhara et al review article
+		3-tank model
+			Bad because no real flow information
+		Skiba model
+	Our assumptions
+		Rider/biker
+		Environmental
+		Classify which ones we deemed critical
+Our Models	
+	Power Curves
+		Andrew Coggan's data curves
+		Goldencheetah OSF curves
+		Our final time trialist one?
+		Our final endurance rider one?
+		How we get the desired P_C value from the curve
+			Calculating total estimated time of the race. 
+	Race Profiles
+		Model 0: Constant Power of P=P_c, 
+			Assumptions
+				- Flat terrain, no turns, constant power
+				- Drag! 
+			Derivation
+			Graphs - v v. t, p v. t
+			Parameter space testing for v_max - surface
+		Model 1: Nonconstant Power
+			Assumptions
+				- Flat terrain, no turns
+				- Start varying power
+			Derivation
+			More graphs/parameter space searching
+		Model 2: Elevation Change
+			Assumptions
+				- Straight course but elevation changes. 
+				- Drag, rollin resistance, gravitational resistance 
+			Derivation
+			Getting angle data from the real courses. 
+		Model 3: Curvy road
+			Assumptions
+				- Additional limiting term controlling max velocity in turns
+		Model 4: Nonconstant wind, rain
+			Assumptions
+				- Drag varies based on headwind/tailwind. 
+				- Rain lowers coefficient of static friction (turns) and coefficient of rolling resistance
+Real-course and run info
+	Riders
+		Power profile for time trialists
+			Male
+			Female
+		Power profile for endurance rider
+			Male 
+			Female
+	Routes
+		2021 Olymptic TT course in Tokyo
+		2021 UCI World Championship course in Flanders
+		Our course design
+Model Results
+Analysis of results
+Conclusion
+	Bottom Line of our results
+	Strength and weaknesses of our approach
+	Future research
+	
+		
